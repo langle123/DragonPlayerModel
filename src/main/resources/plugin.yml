@@ -1,0 +1,22 @@
+name: ${project.name}
+# noinspection PluginYml
+main: ${project.MainClass}
+version: ${project.version}
+api-version: 1.12.2
+authors:
+  - langle__
+depend:
+  - DragonCore
+  - PlaceholderAPI
+softDepend: []
+commands:
+  DragonPlayerModel:
+    aliases:
+      - dpm
+    usage: ""
+    description: 主命令
+    permission: DragonPlayerModel.command
+    permission-message: §c您没有权限
+permissions:
+  DragonPlayerModel.command:
+    default: op
